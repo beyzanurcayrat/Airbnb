@@ -25,6 +25,7 @@
 		36EC1EEC2B67DC7400E30202 /* DeveloperPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1EEB2B67DC7400E30202 /* DeveloperPreview.swift */; };
 		36EC1EF12B67E19400E30202 /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1EF02B67E19400E30202 /* ExploreViewModel.swift */; };
 		36EC1EF42B67E1F400E30202 /* ExploreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1EF32B67E1F400E30202 /* ExploreService.swift */; };
+		36EC1EF62B67EC1A00E30202 /* Regions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1EF52B67EC1A00E30202 /* Regions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		36EC1EEB2B67DC7400E30202 /* DeveloperPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperPreview.swift; sourceTree = "<group>"; };
 		36EC1EF02B67E19400E30202 /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		36EC1EF32B67E1F400E30202 /* ExploreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreService.swift; sourceTree = "<group>"; };
+		36EC1EF52B67EC1A00E30202 /* Regions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				36EC1EEB2B67DC7400E30202 /* DeveloperPreview.swift */,
+				36EC1EF52B67EC1A00E30202 /* Regions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				36A6D0372B6529D400439F28 /* ContentView.swift in Sources */,
 				36A6D0542B65320E00439F28 /* ListingItemView.swift in Sources */,
 				36EC1EF12B67E19400E30202 /* ExploreViewModel.swift in Sources */,
+				36EC1EF62B67EC1A00E30202 /* Regions.swift in Sources */,
 				36EC1EE42B67D2AA00E30202 /* WishlistsView.swift in Sources */,
 				36EC1EEA2B67D79900E30202 /* Listing.swift in Sources */,
 				36A6D0522B652C4F00439F28 /* ExploreView.swift in Sources */,
