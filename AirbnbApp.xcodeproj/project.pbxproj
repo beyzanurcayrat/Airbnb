@@ -17,6 +17,10 @@
 		36A6D0582B67000900439F28 /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6D0572B67000900439F28 /* ListingDetailView.swift */; };
 		36A6D05A2B67009B00439F28 /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6D0592B67009B00439F28 /* ListingImageCarouselView.swift */; };
 		36A6D05D2B6713CE00439F28 /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A6D05C2B6713CE00439F28 /* DestinationSearchView.swift */; };
+		36EC1EE02B67CCC900E30202 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1EDF2B67CCC900E30202 /* ProfileView.swift */; };
+		36EC1EE22B67D06800E30202 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1EE12B67D06800E30202 /* ProfileOptionRowView.swift */; };
+		36EC1EE42B67D2AA00E30202 /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1EE32B67D2AA00E30202 /* WishlistsView.swift */; };
+		36EC1EE62B67D55700E30202 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EC1EE52B67D55700E30202 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +35,10 @@
 		36A6D0572B67000900439F28 /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		36A6D0592B67009B00439F28 /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 		36A6D05C2B6713CE00439F28 /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		36EC1EDF2B67CCC900E30202 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		36EC1EE12B67D06800E30202 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
+		36EC1EE32B67D2AA00E30202 /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
+		36EC1EE52B67D55700E30202 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +162,7 @@
 		36A6D04B2B652BAE00439F28 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				36EC1EE52B67D55700E30202 /* MainTabView.swift */,
 			);
 			name = TabBar;
 			sourceTree = "<group>";
@@ -161,6 +170,7 @@
 		36A6D04C2B652BB700439F28 /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
+				36EC1EE32B67D2AA00E30202 /* WishlistsView.swift */,
 			);
 			name = Wishlists;
 			sourceTree = "<group>";
@@ -168,6 +178,8 @@
 		36A6D04D2B652BEC00439F28 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				36EC1EDF2B67CCC900E30202 /* ProfileView.swift */,
+				36EC1EE12B67D06800E30202 /* ProfileOptionRowView.swift */,
 			);
 			name = Profile;
 			sourceTree = "<group>";
@@ -260,13 +272,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				36A6D05A2B67009B00439F28 /* ListingImageCarouselView.swift in Sources */,
+				36EC1EE02B67CCC900E30202 /* ProfileView.swift in Sources */,
+				36EC1EE22B67D06800E30202 /* ProfileOptionRowView.swift in Sources */,
 				36A6D05D2B6713CE00439F28 /* DestinationSearchView.swift in Sources */,
 				36A6D0372B6529D400439F28 /* ContentView.swift in Sources */,
 				36A6D0542B65320E00439F28 /* ListingItemView.swift in Sources */,
+				36EC1EE42B67D2AA00E30202 /* WishlistsView.swift in Sources */,
 				36A6D0522B652C4F00439F28 /* ExploreView.swift in Sources */,
 				36A6D0562B66F8EA00439F28 /* SearchAndFilterBar.swift in Sources */,
 				36A6D0582B67000900439F28 /* ListingDetailView.swift in Sources */,
 				36A6D0352B6529D400439F28 /* AirbnbApp.swift in Sources */,
+				36EC1EE62B67D55700E30202 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
