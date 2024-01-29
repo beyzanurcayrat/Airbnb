@@ -1,0 +1,30 @@
+//
+//  ExploreViewModel.swift
+//  AirbnbApp
+//
+//  Created by beyzanur cayrat on 29.01.2024.
+//
+
+import Foundation
+
+class ExploreViewModel: ObservableObject{
+    @Published var listings = [Listing]()
+    
+    private let service: ExploreService
+    
+    init(service: ExploreService){
+        self.service = service
+        
+        Task { await fetchListings()}
+    }
+    
+    
+    func fetchListings() async {
+        do {
+            self.listings = try await service.fetchListings()
+        } catch {
+            print("Debug: Failed to fetch listings with error \(error.localizedDescription)")
+        }
+        
+    }
+}
