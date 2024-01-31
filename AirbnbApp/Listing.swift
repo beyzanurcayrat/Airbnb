@@ -92,7 +92,7 @@ enum ListingAmenities: Int, Codable, Identifiable, Hashable {
         case .pool: return "figure.pool.swim"
         case .kitchen: return "fork.knife"
         case .wifi: return "wifi"
-        case .tv: return "Tv"
+        case .tv: return "tv"
         case .laundry: return "washer"
         case .alarmSystem: return "checkerboard.shield"
         case .office: return "pencil.and.ruler.fill"
