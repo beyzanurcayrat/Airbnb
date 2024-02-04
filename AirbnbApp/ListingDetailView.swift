@@ -16,7 +16,7 @@ struct ListingDetailView: View {
     
     init(listing: Listing){
         self.listing = listing
-        
+        //asd
         let region = MKCoordinateRegion(
             center: listing.city == "Los Angeles" ? .losAngeles : .miami,
             span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1))
